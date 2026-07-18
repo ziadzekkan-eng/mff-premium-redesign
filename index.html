@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Marrakech Fine Food — a premium journey through Moroccan flavours." />
+  <title>Marrakech Fine Food</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="announcement">Complimentary delivery in Morocco on eligible orders</div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Marrakech Fine Food home">
+      <span class="brand-mark">MFF</span>
+      <span>Marrakech Fine Food</span>
+    </a>
+
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#gifts">Corporate Gifts</a>
+      <a href="#stores">Stores</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" aria-label="Search">⌕</button>
+      <button class="icon-button" aria-label="Shopping bag">Bag <span class="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">A journey through Moroccan flavours</p>
+        <h1>Exceptional taste, shaped by Marrakech.</h1>
+        <p class="hero-copy">Discover coffee, tea, chocolate, dates and gourmet gifts selected for refined everyday rituals.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#shop">Explore the collection</a>
+          <a class="button button-secondary" href="#story">Discover our story</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="shop" class="section section-intro">
+      <div>
+        <p class="eyebrow">Curated with intention</p>
+        <h2>Shop by experience</h2>
+      </div>
+      <p>From slow morning coffee to generous gifting, each collection is designed to make Moroccan flavour feel distinctive and effortless.</p>
+    </section>
+
+    <section class="category-grid" aria-label="Featured categories">
+      <a class="category-card category-coffee reveal" href="#">
+        <span>01</span><h3>Coffee</h3><p>Roasted for depth and clarity.</p>
+      </a>
+      <a class="category-card category-tea reveal" href="#">
+        <span>02</span><h3>Tea</h3><p>Elegant blends and timeless rituals.</p>
+      </a>
+      <a class="category-card category-chocolate reveal" href="#">
+        <span>03</span><h3>Chocolate</h3><p>Refined textures, generous flavour.</p>
+      </a>
+      <a class="category-card category-gifts reveal" href="#">
+        <span>04</span><h3>Gourmet Gifts</h3><p>Beautifully presented for every occasion.</p>
+      </a>
+    </section>
+
+    <section class="section products-section">
+      <div class="section-heading">
+        <div><p class="eyebrow">House favourites</p><h2>Best sellers</h2></div>
+        <a class="text-link" href="#">View all products →</a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-image product-image-one"><span>Signature</span></div>
+          <div class="product-meta"><div><h3>Atlas Coffee Blend</h3><p>Ground coffee · 250 g</p></div><strong>145 MAD</strong></div>
+          <button class="add-to-cart" data-product="Atlas Coffee Blend">Add to bag</button>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-image product-image-two"><span>New</span></div>
+          <div class="product-meta"><div><h3>Mint Tea Selection</h3><p>Loose leaf tea · 120 g</p></div><strong>120 MAD</strong></div>
+          <button class="add-to-cart" data-product="Mint Tea Selection">Add to bag</button>
+        </article>
+        <article class="product-card reveal">
+          <div class="product-image product-image-three"><span>Gift</span></div>
+          <div class="product-meta"><div><h3>Medina Chocolate Box</h3><p>Assorted chocolates · 24 pcs</p></div><strong>290 MAD</strong></div>
+          <button class="add-to-cart" data-product="Medina Chocolate Box">Add to bag</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="story" class="story-section">
+      <div class="story-image" role="img" aria-label="Moroccan gourmet table styling"></div>
+      <div class="story-content reveal">
+        <p class="eyebrow">Our story</p>
+        <h2>Modern Moroccan hospitality, expressed through flavour.</h2>
+        <p>Marrakech Fine Food brings together carefully chosen ingredients, refined presentation and the warmth of Moroccan generosity.</p>
+        <a class="text-link" href="#">Read our story →</a>
+      </div>
+    </section>
+
+    <section id="gifts" class="gift-section">
+      <div class="gift-content reveal">
+        <p class="eyebrow">Corporate & hospitality</p>
+        <h2>Gifts that leave a lasting impression.</h2>
+        <p>Premium selections for companies, hotels, events and meaningful celebrations.</p>
+        <a class="button button-light" href="#contact">Request a quotation</a>
+      </div>
+    </section>
+
+    <section id="stores" class="section service-grid">
+      <article><span>01</span><h3>Premium selection</h3><p>Carefully curated products with an uncompromising focus on quality.</p></article>
+      <article><span>02</span><h3>Moroccan character</h3><p>Contemporary presentation rooted in local taste and hospitality.</p></article>
+      <article><span>03</span><h3>Thoughtful service</h3><p>Clear guidance, elegant gifting and reliable customer care.</p></article>
+    </section>
+
+    <section id="contact" class="newsletter">
+      <div><p class="eyebrow">The MFF journal</p><h2>Seasonal stories and new discoveries.</h2></div>
+      <form class="newsletter-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Your email address" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="brand-mark">MFF</span><p>A premium journey through Moroccan flavours.</p></div>
+    <div><h3>Explore</h3><a href="#shop">Shop</a><a href="#story">Our Story</a><a href="#gifts">Corporate Gifts</a></div>
+    <div><h3>Service</h3><a href="#contact">Contact</a><a href="#">Delivery</a><a href="#">Returns</a></div>
+    <div><h3>Legal</h3><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></div>
+    <p class="copyright">© 2026 Marrakech Fine Food. Concept storefront.</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
