@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Shop Marrakech Fine Food coffee, tea, chocolate and gourmet gifts." />
+  <title>Shop | Marrakech Fine Food</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="shop.css" />
+</head>
+<body>
+  <div class="announcement">Complimentary delivery in Morocco on eligible orders</div>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">MFF</span><span>Marrakech Fine Food</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+      <a href="shop.html" aria-current="page">Shop</a><a href="index.html#story">Our Story</a><a href="index.html#gifts">Corporate Gifts</a><a href="index.html#stores">Stores</a><a href="index.html#contact">Contact</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button" aria-label="Search">⌕</button><button class="icon-button" aria-label="Shopping bag">Bag <span class="cart-count">0</span></button></div>
+  </header>
+
+  <main>
+    <section class="shop-hero">
+      <p class="eyebrow">The MFF collection</p>
+      <h1>Moroccan flavour, beautifully curated.</h1>
+      <p>Explore coffee, tea, chocolate, dates and refined gifts selected for daily rituals and memorable occasions.</p>
+    </section>
+
+    <section class="catalog-layout">
+      <aside class="catalog-sidebar" aria-label="Product categories">
+        <p class="filter-title">Categories</p>
+        <button class="filter-button active" data-filter="all">All products</button>
+        <button class="filter-button" data-filter="coffee">Coffee</button>
+        <button class="filter-button" data-filter="tea">Tea</button>
+        <button class="filter-button" data-filter="chocolate">Chocolate</button>
+        <button class="filter-button" data-filter="dates">Dates</button>
+        <button class="filter-button" data-filter="gifts">Gourmet gifts</button>
+      </aside>
+
+      <div class="catalog-content">
+        <div class="catalog-toolbar"><div><p class="eyebrow">Shop all</p><h2>Our selection</h2></div><label>Sort <select><option>Featured</option><option>Price: low to high</option><option>Price: high to low</option></select></label></div>
+        <div class="catalog-grid">
+          <article class="catalog-card" data-category="coffee"><a href="product.html"><div class="catalog-image coffee-one"><span>Best seller</span></div><h3>Atlas Coffee Blend</h3><p>Balanced, velvety and aromatic.</p><strong>145 MAD</strong></a></article>
+          <article class="catalog-card" data-category="coffee"><a href="product.html"><div class="catalog-image coffee-two"><span>Espresso</span></div><h3>Medina Espresso</h3><p>Deep roast with cocoa notes.</p><strong>155 MAD</strong></a></article>
+          <article class="catalog-card" data-category="coffee"><a href="product.html"><div class="catalog-image coffee-three"><span>Single origin</span></div><h3>High Atlas Origin</h3><p>Bright, floral and refined.</p><strong>175 MAD</strong></a></article>
+          <article class="catalog-card" data-category="tea"><a href="product.html"><div class="catalog-image tea-one"><span>Classic</span></div><h3>Mint Tea Selection</h3><p>Fresh mint and elegant green tea.</p><strong>120 MAD</strong></a></article>
+          <article class="catalog-card" data-category="chocolate"><a href="product.html"><div class="catalog-image chocolate-one"><span>Gift</span></div><h3>Medina Chocolate Box</h3><p>Assorted chocolates, 24 pieces.</p><strong>290 MAD</strong></a></article>
+          <article class="catalog-card" data-category="dates"><a href="product.html"><div class="catalog-image dates-one"><span>Premium</span></div><h3>Majhoul Date Selection</h3><p>Generous dates in an elegant box.</p><strong>210 MAD</strong></a></article>
+          <article class="catalog-card" data-category="gifts"><a href="product.html"><div class="catalog-image gifts-one"><span>Signature</span></div><h3>Marrakech Discovery Box</h3><p>Coffee, tea, chocolate and dates.</p><strong>490 MAD</strong></a></article>
+          <article class="catalog-card" data-category="gifts"><a href="product.html"><div class="catalog-image gifts-two"><span>Corporate</span></div><h3>Executive Gift Case</h3><p>A premium presentation for business gifting.</p><strong>690 MAD</strong></a></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark">MFF</span><p>A premium journey through Moroccan flavours.</p></div><div><h3>Explore</h3><a href="shop.html">Shop</a><a href="index.html#story">Our Story</a></div><div><h3>Service</h3><a href="index.html#contact">Contact</a><a href="#">Delivery</a></div><div><h3>Legal</h3><a href="#">Privacy</a><a href="#">Terms</a></div><p class="copyright">© 2026 Marrakech Fine Food. Concept storefront.</p></footer>
+  <script src="script.js"></script><script src="shop.js"></script>
+</body>
+</html>
